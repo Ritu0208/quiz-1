@@ -51,4 +51,4 @@ for (var i = 0; i < questions.length; i++) {
   play(currentQuestion.question, currentQuestion.answer);
 }
 
-console.log("You HAVE SCORED 5 OUT OF / " + score)
+console.log("You HAVE SCORE D" + score + "OUT OF 5")
