@@ -6,7 +6,7 @@ var welcomeMessage = readlineSync.question("What is your Name? ");
 console.log(chalk.black.bgWhite("Welcome " + welcomeMessage + "! To Do You Know Me Quiz"));
 
 function play(question, answer) {
-  var userAnswer = readlineSync.question(chalk.black.bgBlue.bold(question));
+  var userAnswer = readlineSync.question(chalk.blue.bold(question));
   if (userAnswer === answer) {
     console.log(chalk.green("Yeahhhh! It's a right answer \n"));
     score = score + 1;
@@ -32,15 +32,15 @@ var questions = [
     answer: "black"
   },
   {
-    question: "Q3.) My favourite outdoor game? ",
-    answer: "volyball"
+    question: "Q3.) What is my favourite subject ",
+    answer: "maths"
   }, {
     question: "Q4.) what is my favourite movie? ",
     answer: "yeh jawani hai deewani"
   },
   {
-    question: "Q5.) What is the name of my favourite car? ",
-    answer: "Range rover"
+    question: "Q5.) My favourite outdoor game? ",
+    answer: "volleyball"
   }
 ]
 
@@ -51,4 +51,4 @@ for (var i = 0; i < questions.length; i++) {
   play(currentQuestion.question, currentQuestion.answer);
 }
 
-console.log("Yay! You HAVE SCORED 5 OUT OF / " + score)
+console.log("You HAVE SCORED 5 OUT OF / " + score)
