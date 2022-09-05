@@ -41,6 +41,18 @@ var questions = [
   {
     question: "Q5.) My favourite outdoor game? ",
     answer: "volleyball"
+  },
+  {
+    question: "Q6.) My favourite song? ",
+    answer: "saude bazi"
+  },
+  {
+    question: "Q7.) Which is my favourite destination? ",
+    answer: "amritsar"
+  },
+  {
+    question: "Q8.) What is my favourite chocolate?",
+    answer: "silk fruit and nut"
   }
 ]
 
